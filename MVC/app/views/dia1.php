@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?= $title ?? 'Día 1' ?></title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/MVC/public/style/css.css">
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -48,7 +49,28 @@
     </div>
 
     <main class="container">
-
+        <section class="my-5">
+            <h2 class="text-center mb-4 fw-bold">Galería del Evento</h2>
+            <div class="photo-grid">
+                <div class="photo-item">
+                    <img src="/MVC/public/img/dia-1-8.jpeg" class="img-fluid rounded">
+                </div>
+                <div class="photo-item tall">
+                    <img src="/MVC/public/img/dia-1-2.jpeg" class="img-fluid rounded">
+                </div>
+                <div class="photo-item">
+                    <img src="/MVC/public/img/dia-1-7.jpeg"  class="img-fluid rounded">
+                </div>
+                <div class="photo-item wide">
+                     <video src="/MVC/public/img/dia-1-6.mp4"  class="img-fluid rounded" autoplay loop muted playsinline></video>
+                </div>
+                <div class="photo-item">
+                    <img src="/MVC/public/img/dia-1-9.jpeg"  class="img-fluid rounded">
+                </div>
+                <div class="photo-item">
+                     <img src="/MVC/public/img/dia-1-4.jpeg" class="img-fluid rounded"></div>
+            </div>
+        </section>
         <section class="topic-section">
             <div class="topic-header">
                 <h2 class="display-6 fw-bold text-primary mb-2">Tema 1: El ABC del Bitcoin</h2>
