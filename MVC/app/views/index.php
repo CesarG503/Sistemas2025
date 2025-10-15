@@ -26,6 +26,15 @@
                         <a class="nav-link" href="/MVC/public/dia2">Día 2</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="/MVC/public/dia3">Día 3</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/MVC/public/dia4">Día 4</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/MVC/public/dia5">Día 5</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="/MVC/public/yo">Mi Información</a>
                     </li>
                 </ul>
