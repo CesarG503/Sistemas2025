@@ -15,6 +15,18 @@ class IndexController{
         return $this->view("dia2", ["title" => 'Día 2 - Semana de Sistemas']);
     }
 
+    public function Dia3(){
+        return $this->view("dia3", ["title" => 'Día 3 - Semana de Sistemas']);
+    }
+
+    public function Dia4(){
+        return $this->view("dia4", ["title" => 'Día 4 - Semana de Sistemas']);
+    }
+
+    public function Dia5(){
+        return $this->view("dia5", ["title" => 'Día 5 - Semana de Sistemas']);
+    }
+
     public function MiInformacion(){
         return $this->view("mi-informacion", ["title" => 'Mi Información']);
     }
