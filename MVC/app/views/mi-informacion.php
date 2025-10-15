@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?= $title ?? 'Mi Información' ?></title>
+    <title><?= $title ?? 'Día 5' ?></title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/MVC/public/style/css.css">
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -25,14 +26,21 @@
                         <a class="nav-link" href="/MVC/public/dia2">Día 2</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="/MVC/public/dia3">Día 3</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/MVC/public/dia4">Día 4</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/MVC/public/dia5">Día 5</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link active" href="/MVC/public/yo">Mi Información</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-
-    
 
     <footer class="bg-dark text-white py-4 mt-5">
         <div class="container text-center">
