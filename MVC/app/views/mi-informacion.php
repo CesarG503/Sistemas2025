@@ -36,7 +36,7 @@
 
     <footer class="bg-dark text-white py-4 mt-5">
         <div class="container text-center">
-            <p class="mb-0">&copy; 2025 Semana de Sistemas. Todos los derechos reservados.</p>
+            <p class="mb-0">&copy; 2025 Semana de Sistemas.</p>
         </div>
     </footer>
 
