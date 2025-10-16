@@ -59,6 +59,28 @@
     </div>
 
     <main class="container my-5">
+         <section class="my-5">
+            <h2 class="text-center mb-4 fw-bold">Galería del Evento</h2>
+            <div class="photo-grid">
+                <div class="photo-item">
+                    <img src="/MVC/public/img/dia-2-1.png" class="img-fluid rounded">
+                </div>
+                <div class="photo-item tall">
+                    <img src="/MVC/public/img/dia-2-2.jpeg" class="img-fluid rounded">
+                </div>
+                <div class="photo-item">
+                    <img src="/MVC/public/img/dia-2-3.jpeg"  class="img-fluid rounded">
+                </div>
+                <div class="photo-item wide">
+                     <img src="/MVC/public/img/dia-2-4.jpeg"  class="img-fluid rounded">
+                </div>
+                <div class="photo-item">
+                    <img src="/MVC/public/img/dias-2-2.png"  class="img-fluid rounded">
+                </div>
+                <div class="photo-item">
+                     <img src="/MVC/public/img/dia-2-5.jpeg" class="img-fluid rounded"></div>
+            </div>
+        </section>
         <section class="mb-5">
             <div class="card topic-card gradient-card-1 shadow-lg">
                 <div class="card-body p-5 position-relative">
