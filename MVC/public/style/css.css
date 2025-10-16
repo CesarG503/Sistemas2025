@@ -1,3 +1,11 @@
+:root {
+    --primary-color: #1a1a1a;
+    --secondary-color: #4a4a4a;
+    --accent-color: #6b6b6b;
+    --light-bg: #f8f9fa;
+    --card-bg: #ffffff;
+    --border-color: #e0e0e0;
+}
 body {
     min-height: 100vh;
     display: flex;
@@ -204,4 +212,315 @@ main {
     padding: 8px 16px;
     border-radius: 20px;
     font-weight: bold;
+}
+
+.personal-h1 {
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+.bento-container {
+    max-width: 1100px;
+    margin: 4rem auto;
+    padding: 0 1rem;
+}
+
+.bento-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-auto-rows: 140px;
+    gap: 0.875rem;
+}
+
+.bento-item {
+    background: var(--card-bg);
+    border-radius: 1.25rem;
+    padding: 1.25rem;
+    border: 2px solid var(--border-color);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+.bento-item:hover {
+    transform: translateY(-4px);
+    border-color: var(--primary-color);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
+}
+
+.bento-item::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(135deg, rgba(26, 26, 26, 0.02), rgba(74, 74, 74, 0.02));
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.bento-item:hover::before {
+    opacity: 1;
+}
+
+.bento-item>* {
+    position: relative;
+    z-index: 1;
+}
+
+.profile-card {
+    grid-column: span 2;
+    grid-row: span 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #2a2a2a 0%, #1a1a1a 100%);
+    border-color: var(--primary-color);
+}
+
+.name-card {
+    grid-column: span 2;
+    grid-row: span 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+}
+
+.academic-card {
+    grid-column: span 2;
+    grid-row: span 2;
+    background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
+}
+
+.email-card {
+    grid-column: span 3;
+    grid-row: span 1;
+}
+
+.github-card {
+    grid-column: span 2;
+    grid-row: span 1;
+}
+
+.phone-card {
+    grid-column: span 2;
+    grid-row: span 1;
+}
+
+.location-card {
+    grid-column: span 2;
+    grid-row: span 1;
+}
+
+.age-card {
+    grid-column: span 2;
+    grid-row: span 1;
+}
+
+.profile-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid rgba(255, 255, 255, 0.9);
+    margin-bottom: 0.75rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.profile-card h1 {
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+    line-height: 1.3;
+}
+
+.card-icon {
+    font-size: 1.75rem;
+    margin-bottom: 0.5rem;
+    color: var(--primary-color);
+    display: inline-block;
+}
+
+.card-label {
+    color: var(--accent-color);
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    margin-bottom: 0.4rem;
+    font-weight: 600;
+}
+
+.card-value {
+    color: var(--primary-color);
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.4;
+}
+
+.card-value a {
+    color: var(--secondary-color);
+    text-decoration: none;
+    transition: all 0.3s ease;
+    border-bottom: 2px solid transparent;
+}
+
+.card-value a:hover {
+    color: var(--primary-color);
+    border-bottom-color: var(--primary-color);
+}
+
+.academic-card .card-label {
+    margin-bottom: 0.75rem;
+}
+
+.academic-card .info-row {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 0.65rem;
+    gap: 0.5rem;
+}
+
+.academic-card .info-row:last-child {
+    margin-bottom: 0;
+}
+
+.academic-card .info-row i {
+    color: var(--primary-color);
+    font-size: 1rem;
+    margin-top: 0.15rem;
+    flex-shrink: 0;
+}
+
+.academic-card .info-row span {
+    color: var(--secondary-color);
+    font-size: 0.875rem;
+    line-height: 1.4;
+}
+
+.name-card .card-value:first-of-type {
+    font-size: 1.25rem;
+    color: var(--primary-color);
+}
+
+.name-card .card-value:last-of-type {
+    font-size: 0.85rem;
+    color: var(--secondary-color);
+    margin-top: 0.25rem;
+}
+
+@media (max-width: 992px) {
+    .bento-grid {
+        grid-template-columns: repeat(4, 1fr);
+        grid-auto-rows: 130px;
+        gap: 0.75rem;
+    }
+
+    .profile-card {
+        grid-column: span 2;
+        grid-row: span 2;
+    }
+
+    .name-card {
+        grid-column: span 2;
+        grid-row: span 2;
+    }
+
+    .academic-card {
+        grid-column: span 4;
+        grid-row: span 2;
+    }
+
+    .email-card {
+        grid-column: span 2;
+        grid-row: span 1;
+    }
+
+    .github-card,
+    .phone-card,
+    .location-card,
+    .age-card {
+        grid-column: span 2;
+        grid-row: span 1;
+    }
+}
+
+@media (max-width: 576px) {
+    body {
+        padding: 1rem 0;
+    }
+
+    .bento-grid {
+        grid-template-columns: 1fr;
+        grid-auto-rows: auto;
+        gap: 0.75rem;
+    }
+
+    .profile-card,
+    .name-card,
+    .academic-card,
+    .email-card,
+    .github-card,
+    .phone-card,
+    .location-card,
+    .age-card {
+        grid-column: span 1;
+        grid-row: span 1;
+        min-height: 120px;
+    }
+
+    .profile-card {
+        min-height: 240px;
+        padding: 1.5rem;
+    }
+
+    .academic-card {
+        min-height: auto;
+        padding: 1.25rem;
+    }
+
+    .profile-img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .profile-card h1 {
+        font-size: 1rem;
+    }
+
+    .card-icon {
+        font-size: 1.5rem;
+    }
+
+    .card-value {
+        font-size: 0.95rem;
+    }
+
+    .academic-card .info-row {
+        margin-bottom: 0.6rem;
+    }
+}
+
+@media (max-width: 380px) {
+    .bento-container {
+        padding: 0 0.75rem;
+    }
+
+    .bento-item {
+        padding: 1rem;
+    }
+
+    .card-label {
+        font-size: 0.65rem;
+    }
+
+    .card-value {
+        font-size: 0.9rem;
+    }
 }

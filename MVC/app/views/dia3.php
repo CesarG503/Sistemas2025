@@ -41,6 +41,35 @@
             </div>
         </div>
     </nav>
+    <div class="hero-banner">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-8">
+                    <span class="badge badge-custom mb-3">Día 3 - Semana de Sistemas</span>
+                    <h1 class="display-4 fw-bold mb-3">Torneo de futbol</h1>
+                    <p class="lead fs-5">
+                        Torneo de fútbol 11, compite en una cancha amplia, demostrando habilidad, estrategia y pasión por el juego.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <main class="container my-5">
+        <div class="row justify-content-center">
+            <div class="col-md-10">
+                <div class="card shadow-sm">
+                    <div class="card-body text-center p-4">
+                        <h2 class="h4 mb-3">Torneo cancelado</h2>
+                        <p class="text-muted mb-4">El torneo de fútbol programado para el Día 3 fue cancelado debido a fuertes lluvias.</p>
+                        <div class="mb-4">
+                            <img src="/MVC/public/img/dia-3-1.jpeg" alt="Torneo Día 3 - imagen" class="img-fluid rounded">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
 
     <footer class="bg-dark text-white py-4 mt-5">
         <div class="container text-center">
