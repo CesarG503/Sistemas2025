@@ -88,9 +88,11 @@
                         <div class="mb-3">
                             <span class="badge bg-success fs-5 px-3 py-2">Día 2</span>
                         </div>
-                        <h3 class="card-title h4 mb-3">Dia 2</h3>
+                        <h3 class="card-title h4 mb-3">Ponderaciones y Temas</h3>
                         <p class="card-text text-muted">
-                            Dia 2
+                            Toma de decisiones estrategias basadas en datos.
+                            Construye un CRUD en minutos con Laravel y Filament.
+                            IA multimodal N8N
                         </p>
                         <a href="/MVC/public/dia2" class="btn btn-outline-success mt-3">Ver contenido</a>
                     </div>
@@ -101,12 +103,56 @@
                 <div class="card section-card border-0 shadow">
                     <div class="card-body p-4">
                         <div class="mb-3">
+                            <span class="badge bg-warning text-dark fs-5 px-3 py-2">Día 3</span>
+                        </div>
+                        <h3 class="card-title h4 mb-3">Torneo de Fútbol</h3>
+                        <p class="card-text text-muted">
+                            Competencia deportiva: torneo de fútbol entre equipos participantes.
+                        </p>
+                        <a href="/MVC/public/dia3" class="btn btn-outline-warning mt-3">Ver contenido</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <div class="card section-card border-0 shadow">
+                    <div class="card-body p-4">
+                        <div class="mb-3">
+                            <span class="badge bg-danger fs-5 px-3 py-2">Día 4</span>
+                        </div>
+                        <h3 class="card-title h4 mb-3">Feria y Competencias</h3>
+                        <p class="card-text text-muted">
+                            Feria de logros: muestra de proyectos innovadores de programación.<br>
+                            Competencia "Comilona de pupusas": concurso para amantes de las pupusas.
+                        </p>
+                        <a href="/MVC/public/dia4" class="btn btn-outline-danger mt-3">Ver contenido</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <div class="card section-card border-0 shadow">
+                    <div class="card-body p-4">
+                        <div class="mb-3">
+                            <span class="badge bg-dark fs-5 px-3 py-2">Día 5</span>
+                        </div>
+                        <h3 class="card-title h4 mb-3">Cierre: Juegos y Fiesta</h3>
+                        <p class="card-text text-muted">
+                            Bingo, torneo de videojuegos y fiesta de cierre para celebrar el evento.
+                        </p>
+                        <a href="/MVC/public/dia5" class="btn btn-outline-dark mt-3">Ver contenido</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="card section-card border-0 shadow">
+                    <div class="card-body p-4">
+                        <div class="mb-3">
                             <span class="badge bg-info fs-5 px-3 py-2">Sobre Mí</span>
                         </div>
                         <h3 class="card-title h4 mb-3">Mi Información</h3>
                         <p class="card-text text-muted">
-                            Conoce más sobre el autor de este proyecto y su participación en la 
-                            Semana de Sistemas 2025.
+                            Conoce más sobre mi en el siguiente apartado.
                         </p>
                         <a href="/MVC/public/yo" class="btn btn-outline-info mt-3">Ver perfil</a>
                     </div>
@@ -118,7 +164,7 @@
             <div class="col-lg-10 mx-auto">
                 <div class="card bg-light border-0">
                     <div class="card-body p-5 text-center">
-                        <h3 class="h4 mb-3">Sobre el Evento</h3>
+                        <h3 class="h4 mb-3">Semana de Sistemas 2025</h3>
                         <p class="text-muted mb-0">
                             La Semana de Sistemas es un evento anual que reúne a estudiantes, profesores y profesionales 
                             del área de tecnología para compartir conocimientos, experiencias y visiones sobre las tendencias 
