@@ -243,7 +243,7 @@
                             <div class="text-center my-4"></div>
                             <div class="d-flex flex-column align-items-center">
                                 <img src="/MVC/public/img/dia-4-6.jpeg" alt="Foto de la Comilona de Pupusas" class="img-fluid rounded-4 shadow" style="max-width: 500px;">
-                                <p class="text-muted mt-2 text-center">Participantes disfrutando la competencia gastronómica.</p>
+                                <p class="text-muted mt-2 text-center"> Competencia gastronómica.</p>
                             </div>
 
                             <div class="alert alert-light border-0 mt-4 text-center" style="background: rgba(255, 255, 255, 0.6);">
