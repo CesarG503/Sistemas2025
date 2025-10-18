@@ -38,6 +38,9 @@
                     <li class="nav-item">
                         <a class="nav-link active" href="/MVC/public/yo">Mi Información</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/MVC/public/visitas">Registro de Visitas</a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -48,7 +51,7 @@
         <div class="bento-grid">
 
             <div class="bento-item profile-card">
-                <img src="/MVC/public/img/dia-1-1.jpeg" class="profile-img">
+                <img src="/MVC/public/img/perfil.jpeg" class="profile-img">
                 <h1>Cesar Alexander<br>Garay Ortez</h1>
             </div>
 

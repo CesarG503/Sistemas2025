@@ -37,6 +37,9 @@
                     <li class="nav-item">
                         <a class="nav-link" href="/MVC/public/yo">Mi Información</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/MVC/public/visitas">Registro de Visitas</a>
+                    </li>
                 </ul>
             </div>
         </div>
